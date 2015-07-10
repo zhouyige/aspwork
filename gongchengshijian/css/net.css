@@ -1,0 +1,322 @@
+﻿@charset "gb2312";
+
+* {
+    font-size: 9pt;
+    border: 1;
+}
+
+body {
+    font-family: '微软雅黑';
+    margin: 0 auto;
+    min-width: 980px;
+}
+/*提示标签*/
+.errorlabel {
+    color: #fb2508;
+    width: 86px;
+    line-height: 34px;
+    display: block;
+    float: left;
+}
+
+/*BulletedList样式*/
+.BeautifulList {
+    width: 180px;
+    margin: 20px;
+    font-family: Verdana;
+}
+
+    .BeautifulList a {
+        display: block;
+        color: #fff;
+        padding: 10px 15px;
+        background-color: #3DA2B6;
+        border-bottom: dotted 1px #A8D3DA;
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+        .BeautifulList a:hover {
+            color: #fff;
+            background-color: #58AFC0;
+           /*font-weight: bold;*/ 
+        } 
+    .BeautifulList h1 {
+        margin: 0;
+        font-weight: normal;
+        color: #fff;
+        padding: 15px;
+        font-size: 14px;
+        background-color: #238298;
+    }
+
+.BeautifulFoot h2 {
+    color: white;
+    margin: 0;
+    font-size: 14px;
+    padding: 20px 10px;
+}
+/*圆角实现*/
+div.RoundedCorner {
+    background: #3DA2B6;
+}
+
+b.rtop, b.rbottom {
+    display: block;
+    background: #FFF;
+}
+
+    b.rtop b, b.rbottom b {
+        display: block;
+        height: 1px;
+        overflow: hidden;
+        background: #3DA2B6;
+    }
+
+b.r1 {
+    margin: 0 5px;
+}
+
+b.r2 {
+    margin: 0 3px;
+}
+
+b.r3 {
+    margin: 0 2px;
+}
+
+b.rtop b.r4, b.rbottom b.r4 {
+    margin: 0 1px;
+    height: 2px;
+}
+
+/*GridView样式*/
+/*imgtable*/
+.imgtable {
+    width: 100%;
+    border: solid 1px #cbcbcb;
+    border-bottom: solid 3px #414141;
+}
+
+    .imgtable th {
+        color: #fff;
+        background-color: #056dae;
+        height: 34px;
+        line-height: 34px;
+        border-bottom: solid 3px #414141;
+        border-top: solid 3px #414141;
+        border-right: dotted 1px #c7c7c7;
+        text-align: center;
+    }
+
+    .imgtable td {
+        line-height: 20px;
+        text-align: center;
+        border-right: dotted 1px #c7c7c7;
+        border-bottom: solid 1px #288dcc;
+    }
+
+        .imgtable td img {
+            margin: 5px 0px 5px 0;
+        }
+
+    .imgtable tbody tr:hover {
+        background: #8eecff;
+    }
+
+        .imgtable tbody tr:hover td {
+            background: none;
+        }
+
+/*交替行效果*/
+.alternatRow {
+    background: #e5ebee;
+    line-height: 20px;
+    text-align: center;
+    border-right: dotted 1px #c7c7c7;
+    border-bottom: dashed 1px #F4F4F4;
+}
+
+
+/*pagetable1*/
+.pagetable1 {
+    /*border-top: 1px solid #cbcbcb;
+    border-bottom: solid 3px #414141;
+    border-left: solid 2px #414141;
+    border-right: solid 2px #414141;
+    margin-left:0%;
+    margin-right:1%;
+    margin-top:0%;*/
+    z-index: 2;
+    position: absolute;
+    top: 83px;
+    left: 34px;
+}
+.pagetable1btn {
+    background: url(../images/ibtnbg.png) repeat-x;
+    border: solid 1px #bfcfe1;
+    height: 15px;
+    width:40px;
+    line-height: 23px;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+    .pagetable1 th {
+        color: #fff;
+        height: 34px;
+        line-height: 34px;
+        border-bottom: solid 3px #414141;
+        border-top: solid 3px #414141;
+        border-right: dotted 1px #c7c7c7;
+        text-align: center;
+    }
+
+    .pagetable1 td {
+        height: 40px;
+        line-height: 20px;
+        text-align: center;
+        border-right: dotted 1px #c7c7c7;
+        border-bottom: solid 1px #f0f0f0;
+    }
+
+        .pagetable1 td img {
+            margin: 5px 0px 5px 0;
+        }
+
+    .pagetable1 tbody tr:hover {
+        background: #8eecff;
+    }
+
+        .pagetable1 tbody tr:hover td {
+            background: none;
+        }
+
+
+
+/*下拉框样式*/
+.box1 {
+    border: 1px solid #C0C0C0;
+    width: 100px;
+    height: 19px;
+    clip: rect(0px,111px,18px,0px);
+    overflow: hidden;
+}
+
+.box2 {
+    border: 1px solid #F4F4F4;
+    width: 112px;
+    height: 17px;
+    clip: rect(0px,109px,16px,0px);
+    overflow: hidden;
+}
+
+select.nice {
+    position: relative;
+    left: -1px;
+    top: -1px;
+    font-size: 12px;
+    width: 113px;
+    line-height: 19px;
+    border: 0px;
+    color: #414141;
+}
+
+.box3 {
+    border: 1px solid #C0C0C0;
+    width: 300px;
+    height: 32px;
+    clip: rect(0px,111px,18px,0px);
+    overflow: hidden;
+}
+
+.box4 {
+    border: 1px solid #F4F4F4;
+    width: 312px;
+    height: 30px;
+    clip: rect(0px,109px,16px,0px);
+    overflow: hidden;
+}
+.box5 {
+    border: 1px solid #C0C0C0;
+    width: 130px;
+    height: 19px;
+    clip: rect(0px,111px,18px,0px);
+    overflow: hidden;
+}
+
+.box6 {
+    border: 1px solid #F4F4F4;
+    width: 142px;
+    height: 17px;
+    clip: rect(0px,109px,16px,0px);
+    overflow: hidden;
+}
+
+select.nice2 {
+    position: relative;
+    left: -1px;
+    top: -1px;
+    font-size: 12px;
+    width: 313px;
+    line-height: 32px;
+    border: 0px;
+    color: #414141;
+}
+
+
+/*AspNetPager样式*/
+.pages {
+    color: #999;  
+}
+
+    .pages a, .pages .cpb {
+        text-decoration: none;
+        float:left;
+        padding: 0 5px;
+        border: 1px solid #ddd;
+        background: #fff;
+        margin: 0 2px;
+        font-size: 11px;
+        color: #000;
+    }
+
+        .pages a:hover {
+            background-color: #E61636;
+            color: #fff;
+            border: 1px solid #E61636;
+            text-decoration: none;
+        }
+
+    .pages .cpb {
+        font-weight: bold;
+        color: #fff;
+        background: #E61636;
+        border: 1px solid #E61636;
+    }
+
+    /*GridViewPager样式*/
+.GridViewpages {
+    color: #999;
+    position: absolute;
+    top: 76px;
+    left: 74px;
+}
+
+    .GridViewpages a {
+        text-decoration: none;
+        padding: 0 5px;
+        border: 1px solid #ddd;
+        background: #fff;
+        margin: 0 2px;
+        font-size: 15px;
+        color: #000;
+    }
+
+        .GridViewpages a:hover {
+            background-color: #E61636;
+            color: #fff;
+            border: 1px solid #E61636;
+            text-decoration: none;
+        }
+
